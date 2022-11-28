@@ -11,7 +11,7 @@ directory(){
 }
 
 get_status(){
-    echo "%(?.%{$fg[green]%}✔%f.%{$fg[red]%}✘%f)"
+    echo "%(?.%{$fg[green]%}%f.%{$fg[red]%}✘%f)"
 }
 
 # git
